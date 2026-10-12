@@ -220,3 +220,4 @@ if question:
                 st.session_state.messages.append(
                     {"role": "assistant", "content": msg}
                 )
+st.set_page_config(page_title="Chat with your data", page_icon="📊")
